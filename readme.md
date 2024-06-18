@@ -1,12 +1,19 @@
 # Loan Prediction
 
 # Pre-requisites
+To complete this project successfully, you should have the following skills and knowledge:
 
-- Basic experience with training a machine learning model using scikit-learn or xgboost
-- Basic experience with serving a pretrained using flask
-- Basic familiarity with Postgressql
-- Experience with docker and docker-compose
-- Basic statistics on hypothesis testing
+Basic experience in training machine learning models with scikit-learn or XGBoost
+
+Familiarity with serving pre-trained models using Flask
+
+Basic understanding of PostgreSQL
+
+Experience with Docker and Docker Compose
+
+Basic knowledge of statistics and hypothesis testing
+
+Note: This project requires the data to be present in a PostgreSQL server. The data can be found in the code>main>dags>data>raw directory. Please upload the data and configure the credentials in the code>main>dags>creds.json file.
 
 ### Note: This project requires the data to be present in postgres server.
 
@@ -100,15 +107,15 @@ Here we will simply setup our environment using docker.
 
 ## 1. Traditional machine learning model training pipeline
 
-1. data gathering
-2. data preprocessing
-3. model training
-4. model evaluation
-5. model serving
+1. Data gathering
+2. Data preprocessing
+3. Model training
+4. Model evaluation
+5. Model serving
 
 ## 2. The idea behind model training monitoring
 
-1. data integrity
-2. data drift
-3. concept drift
-4. comparative analysis of models
+1. Data integrity
+2. Data drift
+3. Concept drift
+4. Comparative analysis of models
